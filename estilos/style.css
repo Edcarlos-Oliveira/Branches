@@ -11,8 +11,41 @@ body {
 
 main {
     background-color: white;
-    width: 500px;
+    width: 560px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px bisque;
+}
+
+h1 {
+    font-size: 2em;
+    color: blue;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: blue;
+    margin: 10px;
+}
+
+p {
+    text-align: justify;
+    padding: 15px;
+}
+
+img.lado {
+    float: right; 
+    padding-left: 15px;   
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blueviolet; 
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
 }
